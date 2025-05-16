@@ -4418,7 +4418,7 @@ blockquote {
 
 .capahospital {
   border-radius: 7px;
-  height: 660px;
+  height: auto;
   padding: 20px;
 }
 
@@ -7418,8 +7418,12 @@ html.w-mod-js [data-ix="display-scroll-navbar"] {
     border-radius: 7px;
   }
 
-  .copy2, .capahospital, .copycentro {
+  .copy2, .copycentro {
     height: 635px;
+  }
+
+  .capahospital{
+    height: auto;
   }
 
   .image-7-copy {
